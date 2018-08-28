@@ -16,7 +16,7 @@ https://pan.baidu.com/s/1c2JzvDQ<br>
 **cjson**<br>
 https://github.com/mpx/lua-cjson<br>
 ~~**protoc-gen-lua**~~ <b><br>
-https://github.com/topameng/protoc-gen-lua<br>
+~~https://github.com/topameng/protoc-gen-lua~~<br>
 **lua-protobuf**用这个替换protoc-gen-lua老旧得库<br>
 https://github.com/starwing/lua-protobuf.git<br>
 **LuaSocket** <br>
@@ -26,9 +26,6 @@ http://www.inf.puc-rio.br/~roberto/struct/<br>
 **lpeg**<br>
 http://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html<br>
 
-# 新增功能
-
-**int64 uint64 用string保存类型保存得计算比较**<br>
 
 
 
