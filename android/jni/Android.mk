@@ -16,7 +16,6 @@ LOCAL_CFLAGS :=  -O2 -std=gnu99
 LOCAL_SRC_FILES :=	../../tolua.c \
 					../../int64.c \
 					../../uint64.c \
-					../../pb.c \
 					../../lpeg.c \
 					../../struct.c \
 					../../cjson/strbuf.c \
@@ -35,6 +34,7 @@ LOCAL_SRC_FILES :=	../../tolua.c \
  					../../luasocket/timeout.c \
  					../../luasocket/udp.c \
  					../../luasocket/usocket.c \
+					../../lua-protobuf/pb.c
  					
 LOCAL_WHOLE_STATIC_LIBRARIES += libluajit
 include $(BUILD_SHARED_LIBRARY)

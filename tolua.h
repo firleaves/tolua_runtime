@@ -45,6 +45,20 @@
 
 #define abs_index(L, i)  ((i) > 0 || (i) <= LUA_REGISTRYINDEX ? (i) : lua_gettop(L) + (i) + 1)
 
+#ifndef bool 
+#define bool int
+#endif
+
+#ifndef ture 
+#define ture 1
+#endif 
+
+#ifndef false 
+#define false 0
+#endif 
+
+
+
 void tolua_openint64(lua_State* L);
 int  tolua_newint64(lua_State* L);
 void tolua_pushint64(lua_State* L, int64_t n);
