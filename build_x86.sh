@@ -1,7 +1,7 @@
 cd luajit-2.1/src
 
 # Android/x86, x86 (i686 SSE3), Android 4.0+ (ICS)
-NDK=F:/AndroidEnv/ndk
+NDK=D:/WorkEnv/AndroidEnv/ndk
 NDKABI=19
 NDKVER=$NDK/toolchains/x86-4.9
 NDKP=$NDKVER/prebuilt/windows-x86_64/bin/i686-linux-android-

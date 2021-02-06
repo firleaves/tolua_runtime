@@ -26,6 +26,11 @@ http://www.inf.puc-rio.br/~roberto/struct/<br>
 **lpeg**<br>
 http://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html<br>
 
+# Extension
+
+**1.lua-protobuf**<br>
+>lua-protobuf 增加支持int64 uint64对象<br>
+>lua-protobuf 修改int64_as_string选项，删除字符串前面”#“开头
 
 
 
